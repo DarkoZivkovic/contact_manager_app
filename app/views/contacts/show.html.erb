@@ -1,0 +1,13 @@
+<div class = "left">
+<p>First name: <%= @contact.first_name %></p>
+<p>Last name:<%= @contact.last_name %></p>
+<p>Email: <%= @contact.email %></p>
+</div>
+
+<div class ="right">
+<div class = "show"><%= link_to "Back", root_path%></div>
+
+<div class = "show"><%= link_to "Edit", edit_contact_path(@contact)%></div>
+<div class = "show"><%= link_to "Delete", contact_path(@contact), method: :delete, data: { confirm: "Are you sure?" } %></div>
+</div>
+

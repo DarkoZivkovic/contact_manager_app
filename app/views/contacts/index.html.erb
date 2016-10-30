@@ -1,0 +1,21 @@
+<div class = "new"><%= link_to image_tag("/assets/new_contact.png"), new_contact_path %></div> 
+<table border="1" class="container">
+<thead>
+	<tr class="row">
+		<td class = "col-sm-4">First Name</td>
+		<td class = "col-sm-4">Last Name</td>
+		<td class = "col-sm-4">Email address</td>
+		<td class = "col-sm-4">Update or delete</td>
+	</tr>
+</thead>
+<% @contacts.each do |contact| %>
+  <tr class = "row">
+  <td class = "col-sm-3"><%=  contact.first_name %></td>
+  <td class = "col-sm-3"><%= contact.last_name %></td>
+  <td class = "col-sm-3"><%= contact.email %></td>
+  <td class="col-sm-3"><%= link_to "Change contact", contact%></td>
+  </tr>
+
+<% end %>
+
+</table>	

@@ -1,0 +1,81 @@
+// Place all the styles related to the Contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1.headline{ 
+	background-color: #3E9FE2;
+	color: #ffffff;
+	padding: 20px 5%;
+	margin-top: 0;
+}
+
+h1 span{
+	color: red;
+	font-size: 15px;
+	vertical-align: super
+}
+
+td{
+	height: 40px;
+}
+
+thead td{
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #3E9FE2;
+}
+
+.new img{
+	width: 60px;
+	height: 80px;	
+}
+
+.new{
+  margin: 20px auto 20px auto;
+  width: 80px;
+}
+
+p{
+	font-size: 1.6em;
+}
+
+.show{
+	width: 250px;
+	margin: 0 auto;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.show a{
+	text-transform: uppercase;
+}
+
+.left, .right{
+	display: inline-block;
+	margin:10%
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right
+}
+
+
+.btn{
+	margin: 0 auto;
+	background-color: blue;
+}
+
+.cont{
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
